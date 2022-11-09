@@ -1,14 +1,14 @@
-NAME	: sudoku
+NAME	= sudoku
 
-SRCS	: sudoku.c
+SRCS	= sudoku.c
 
-OBJS	: $(SRCS:.c=.o)
+OBJS	= $(SRCS:.c=.o)
 
-CC		: clang
+CC		= clang
 
-CFLAGS	: -Wall -Wextra -Werror
+CFLAGS	= -Wall -Wextra -Werror
 
-RM		: rm -rf
+RM		= rm -rf
 
 all : $(NAME)
 
